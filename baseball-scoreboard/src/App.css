@@ -23,11 +23,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dashboard {
+  display: flex;
+}
+
+.dashboard .button {
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+}
+
+.display {
+  display: flex;
+}
+
+.display .boxes {
+  height: 150px;
+  width: 100px;
+  border: 2px solid black;
 }
