@@ -39,6 +39,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
+      <Display strikeCount={strikeCount} ballCount={ballCount}/>
       <div className='button' onClick={strike}>
         Strike
       </div>
@@ -51,7 +52,6 @@ const Dashboard = () => {
       <div className='button' onClick={reset}>
         Hit
       </div>
-      <Display strikeCount={strikeCount} ballCount={ballCount}/>
     </div>
   )
 }
